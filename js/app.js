@@ -76,14 +76,14 @@ class ProductoController {
     //Productos disponibles y sus propiedades
     cargarProductos(){
 
-        this.agregar( new Producto (1, "Lentes de sol Almond",150, "Lentes de sol vintage, hechos en Italia", "http://127.0.0.1:5500/Recursos/lentes-green.jpg", "Lentes_de_sol", "Accesorios") )
-        this.agregar(new Producto(2, "Camisa Mercury",60, "Camisa denim manga corta, realizada con desechos de fábrica", "http://127.0.0.1:5500/Recursos/camisa-denim.jpg", "Camisa_denim", "Ropa") )
-        this.agregar(new Producto(3, "Tshirt Smoky" ,45, "Tshirt dont smoke", "http://127.0.0.1:5500/Recursos/dontsmoke-tee.jpg", "Tshirt_estampada", "Ropa") )
-        this.agregar(new Producto(4, "Tshirt Donsmoke",45, "Tshirt oversize", "http://127.0.0.1:5500/Recursos/boypinktee.jpg", "Tshirt_oversize", "Ropa") )
-        this.agregar(new Producto(5, "Tshirt Marie",45, "Tshirt fucsia con estampa", "http://127.0.0.1:5500/Recursos/remera-dontsmoke1.jpg", "Tshirt_estampa", "Ropa") )
-        this.agregar(new Producto(6, "Campera Fuji",100, "Campera bordada", "http://127.0.0.1:5500/Recursos/campera-bordada.jpg", "Campera_bordada", "Ropa") )
-        this.agregar(new Producto(7, "Tshirt Ozzy",100, "Tshirt con estampa de Ozzy Osbourne", "http://127.0.0.1:5500/Recursos/remera-banda.jpg", "Tshirt_ozzy", "Ropa") )
-        this.agregar(new Producto(8, "Jean Ducky",100, "Straight Jeans, high waist con bordados de los Looney Tunes", "http://127.0.0.1:5500/Recursos/jean-bordado.jpg", "Jean_bordado", "Ropa") )
+        this.agregar( new Producto (1, "Lentes de sol Almond",150, "Lentes de sol vintage, hechos en Italia", "https://images.pexels.com/photos/9771805/pexels-photo-9771805.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2", "Lentes_de_sol", "Accesorios") )
+        this.agregar(new Producto(2, "Camisa Mercury",60, "Camisa denim manga corta, realizada con desechos de fábrica", "https://images.pexels.com/photos/12064935/pexels-photo-12064935.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2", "Camisa_denim", "Ropa") )
+        this.agregar(new Producto(3, "Tshirt Smoky" ,45, "Tshirt dont smoke", "https://images.pexels.com/photos/14711713/pexels-photo-14711713.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2", "Tshirt_estampada", "Ropa") )
+        this.agregar(new Producto(4, "Tshirt Donsmoke",45, "Tshirt oversize", "https://images.pexels.com/photos/14769304/pexels-photo-14769304.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2", "Tshirt_oversize", "Ropa") )
+        this.agregar(new Producto(5, "Tshirt Marie",45, "Tshirt fucsia con estampa", "https://images.pexels.com/photos/14845062/pexels-photo-14845062.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2", "Tshirt_estampa", "Ropa") )
+        this.agregar(new Producto(6, "Campera Fuji",100, "Campera bordada", "https://images.pexels.com/photos/14844862/pexels-photo-14844862.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2", "Campera_bordada", "Ropa") )
+        this.agregar(new Producto(7, "Tshirt Ozzy",100, "Tshirt con estampa de Ozzy Osbourne", "https://images.pexels.com/photos/11131439/pexels-photo-11131439.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2", "Tshirt_ozzy", "Ropa") )
+        this.agregar(new Producto(8, "Lentes de sol Ducky",150, "Lentes de sol vintage, hechos en España", "https://images.pexels.com/photos/14700245/pexels-photo-14700245.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2", "Lentes_vintage", "Accesorios") )
         this.agregar(new Producto(9, "Cardigan Justin",80, "Saco vintage a rayas", "https://images.pexels.com/photos/14844788/pexels-photo-14844788.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load", "Cardigan_vintage", "Ropa") )
         this.agregar(new Producto(10, "Hoodie D-Smoke",100, "Hoodie con estampa", "https://images.pexels.com/photos/14769361/pexels-photo-14769361.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load", "Hoodie_estampado", "Ropa") )
         this.agregar(new Producto(11, "Buzo Wulf", 100, "Buzo crop con cuello alto", "https://images.pexels.com/photos/14711368/pexels-photo-14711368.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load", "Buzo_vintage", "Ropa") )
