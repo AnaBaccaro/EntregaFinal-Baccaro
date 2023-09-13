@@ -1,0 +1,148 @@
+.container {
+    margin-top: 8rem;
+}
+
+/* Cambia el color de los enlaces del nav al hacer hover */
+.navbar-nav .nav-item .nav-link:hover {
+    color: #e8e970; 
+  }
+
+/* Cambio de color del fondo del nav */
+  .bg-custom {
+    background-color: white;
+}
+
+/* Cambio de color de los enlaces del menu desplegable */
+.dropdown-menu .dropdown-item:hover {
+    color: black;
+    background-color: #e8e970;
+}
+
+/* Estilo personalizado para el icono del carrito */
+.cart-icon {
+    color: black; /* Color del icono inicial */
+    transition: color 0.3s ease; /* Transición de color para el icono */
+}
+
+/* Cambia el color del icono al hacer hover */
+.btn-custom:hover .cart-icon {
+    color: #e8e970; /* Cambia el color del icono a rojo al hacer hover */
+}
+
+
+
+/* Estilo personalizado para el botón "Añadir al carrito" */
+.btn-cart{
+    background-color: black;
+    color: white; 
+    border: none; 
+    border-radius: 100px; /* Ajusta el radio del borde según tus preferencias */
+    padding: 5px 15px; /* Ajusta el espaciado según tus necesidades */
+    transition: background-color 0.3s ease; /* Transición suave del color de fondo */
+}
+
+/* Cambia el color de fondo al hacer hover */
+.btn-cart:hover {
+    background-color: #e8e970;
+    color: white;
+}
+
+
+
+/* Estilos del FOOTER */
+.footer-info {
+    background-color: 
+    #e0d1ed;
+    min-height: 50vh;
+    color: #000;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: stretch;
+    margin-top: 5rem;
+    text-decoration: none;
+    }
+
+
+.suscripcion h3 {
+    display: flex;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #000;
+    text-decoration: none;
+    margin-left: 10px;
+    white-space: pre-line;
+    text-align: left;
+}
+
+.suscripcion p {
+    display: flex;
+    font-weight: thin;
+    color: #000;
+    text-decoration: none;
+    margin-left: 10px;
+    white-space: pre-line;
+    text-align: left;
+}
+
+.suscripcion input {
+    margin-left: 10px;
+    display: flex;
+    width: 23rem;
+    height: 2.5rem;
+    border-radius: 5px;
+    border: 1px solid black;
+    }
+
+input::placeholder {
+    border: 16px #e8e970;
+   }
+
+
+.suscripcion button {
+    display: flex;
+    text-align: left;
+    margin-top: 5px;
+    align-items: flex-end;
+    margin-left: 10px;
+    text-decoration: none;
+    background-color: black;
+    color: white; 
+    border: none; 
+    border-radius: 100px; 
+    padding: 5px 15px; 
+    transition: background-color 0.3s ease;
+    
+}
+
+.suscripcion button:hover {
+    background-color: #e8e970;
+    color: white;
+}
+
+.dudas {
+    list-style-type: none;
+    text-align: left;
+    margin-left: 0px;
+    margin-top: 12px;
+}
+
+.dudas a {
+    color: #000;
+    text-decoration: none;
+}
+
+.dudas a:hover {
+    color: #e8e970;
+}
+
+
+.texto-xs-bottom {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 1.5rem;
+}
