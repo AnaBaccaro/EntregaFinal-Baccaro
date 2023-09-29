@@ -301,3 +301,27 @@ input {
     object-fit: cover; 
 }
 
+.logocircular-contenedor{
+    position:relative
+}
+
+
+.logo-circular {
+    position: fixed; /* Esto hace que la imagen sea fija en la ventana del navegador */
+    top: 20px; /* Ajusta la distancia desde la parte superior */
+    right: 20px; /* Ajusta la distancia desde la derecha */
+    animation: rotate 10s linear infinite;
+
+    /* Agrega el siguiente código para hacer que la imagen gire continuamente */
+    animation: rotate 10s linear infinite;
+}
+
+/* Define la animación llamada 'rotate' */
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

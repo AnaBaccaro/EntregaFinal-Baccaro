@@ -168,11 +168,13 @@ class Carrito {
             if (productoAgregar.actualizarStock(1)) {
                 this.listaCarrito.push(productoAgregar)
                 productoAgregar.precioTotal = productoAgregar.precio
+                this.mostrarToastifyAñadirAlCarrito()
             } else {
                 this.mostrarToastifyStock()
             }
         }
         this.guardarEnStorage()
+        
     }
         
     eliminar(productoAeliminar){
@@ -271,6 +273,25 @@ class Carrito {
     mostrarTotal(){
         const precio_total = document.getElementById("precio_total")
         precio_total.innerText = `Precio total: $${this.calcularTotal()}`
+    }
+
+    mostrarToastifyAñadirAlCarrito(){
+        {
+            Toastify({
+                text: "¡Increíble elección! 😍 Tu artículo está listo en el carrito",
+                duration: 2000,
+                newWindow: true,
+                close: true,
+                gravity: "bottom", 
+                position: "right", 
+                stopOnFocus: true, 
+                style: {
+                background: "white",
+                color: "black",
+                },
+                onClick: function(){} 
+              }).showToast();
+                }
     }
 
     mostrarToastifyEliminar(){
