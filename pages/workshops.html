@@ -4,9 +4,248 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+     <!-- Link Boostrap -->
+     <link
+     href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+     rel="stylesheet"
+     integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+     crossorigin="anonymous"
+   />
+
+   <!-- Link iconos -->
+   <link
+     rel="stylesheet"
+     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+     integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+     crossorigin="anonymous"
+     referrerpolicy="no-referrer"
+   />
+
+   <!-- Link Animate CSS -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+   <!-- Link CSS -->
+   <link rel="stylesheet" href="../css/style.css" />
+ </head>
+    <title>Workshops</title>
 </head>
 <body>
-    
+    <header>
+      <nav class="navbar navbar-expand-lg bg-custom" data-bs-theme="light">
+        <div class="container-fluid">
+          <a class="navbar-brand mx-auto" href="#">
+            <!-- <img src="../R" alt="Logo_de_la_marca"> -->
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarColor03"
+            aria-controls="navbarColor03"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarColor03">
+            <img src="../Recursos/logo_newversion.jpeg" alt="logo" class="logo_nav_otros">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  data-bs-toggle="dropdown"
+                  href="../index.html"
+                  role="button"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  >SHOP</a
+                >
+                <div class="dropdown-menu">
+                  <a id="todos_productos_link" class="dropdown-item" href="../index.html"
+                    >Todos los productos</a
+                  >
+                  <a id="ropa_link" class="dropdown-item" href="../index.html">Ropa</a>
+                  <a id="zapatos_link" class="dropdown-item" href="../index.html"
+                    >Zapatos</a
+                  >
+                  <a id="accesorios_link" class="dropdown-item" href="../index.html"
+                    >Accesorios</a
+                  >
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./workshops.html">WORKSHOPS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/nosotros.html">NOSOTROS</a>
+              </li>
+            </ul>
+            
+
+            <!-- Button trigger modal -->
+            <button
+              type="button"
+              class="btn btn-custom btn-cart"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+            >
+              <i class="fa-solid fa-cart-shopping cart-icon fa-xl"></i>
+              <span id="carrito-count" class="badge">0</span>
+            </button>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <h1 class="text-center mt-5 fw-bold">UPCYCLING WORKSHOPS</h1>
+        
+      <!-- cards -->
+      <div class="container container-card-workshop">
+        <div class="row ">
+          <div class="col-12 col-lg-4 mt-5">
+            <div class="card" style="width: 18rem;">
+              <img src="../Recursos/upcycling_bag.jpeg" class="card-img-top card-img-size card-img-fixed" alt="...">
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Denim Revive Bag</h5>
+                <p class="card-text">Bolsa de compras hecha con restos de denim reciclados.</p>
+                <div>
+                  <i class="fa-solid fa-location-dot" style="color: #050505;"></i>
+                  <label class="mt-2">Montevideo</label>
+                </div>
+                <div>
+                  <i class="fa-regular fa-face-grin-beam-sweat" style="color: #000000;"></i>
+                  <label class="mt-2">Principiante</label>
+                </div>
+                <div>
+                  <i class="fa-solid fa-clock" style="color: #070808;"></i>
+                  <label class="mt-2">3h 30</label>
+                </div>
+              </div>
+                <div class="card-body">
+                  <button class="btn-cart">Info</button>
+                </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-lg-4 mt-5">
+            <div class="card" style="width: 18rem;">
+              <img src="../Recursos/corset_denim.jpeg" class="card-img-top card-img-size card-img-fixed" alt="...">
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Denim Revive Bag</h5>
+                <p class="card-text">Bolsa de compras hecha con restos de denim reciclados.</p>
+                <div>
+                  <i class="fa-solid fa-location-dot" style="color: #050505;"></i>
+                  <label class="mt-2">Montevideo</label>
+                </div>
+                <div>
+                  <i class="fa-regular fa-face-grin-beam-sweat" style="color: #000000;"></i>
+                  <i class="fa-regular fa-face-grin-beam-sweat" style="color: #000000;"></i>
+                  <i class="fa-regular fa-face-grin-beam-sweat" style="color: #000000;"></i>
+                  <label class="mt-2">Avanzado</label>
+                </div>
+                <div>
+                  <i class="fa-solid fa-clock" style="color: #070808;"></i>
+                  <label class="mt-2">5h 30</label>
+                </div>
+              </div>
+                <div class="card-body">
+                  <button class="btn-cart">Info</button>
+                </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-lg-4 mt-5">
+            <div class="card" style="width: 18rem;">
+              <img src="../Recursos/denim_pant.jpeg" class="card-img-top card-img-size card-img-fixed" alt="...">
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Denim Revive Bag</h5>
+                <p class="card-text">Bolsa de compras hecha con restos de denim reciclados.</p>
+                <div>
+                  <i class="fa-solid fa-location-dot" style="color: #050505;"></i>
+                  <label class="mt-2">Montevideo</label>
+                </div>
+                <div>
+                  <i class="fa-regular fa-face-grin-beam-sweat" style="color: #000000;"></i>
+                  <i class="fa-regular fa-face-grin-beam-sweat" style="color: #000000;"></i>
+                  <i class="fa-regular fa-face-grin-beam-sweat" style="color: #000000;"></i>
+                  <label class="mt-2">Avanzado</label>
+                </div>
+                <div>
+                  <i class="fa-solid fa-clock" style="color: #070808;"></i>
+                  <label class="mt-2">5h 30</label>
+                </div>
+              </div>
+                <div class="card-body">
+                  <button class="btn-cart">Info</button>
+                </div>
+            </div>
+          </div>
+
+      </div>
+      </div>
+      </div>
+    </div>
+             
+          <!-- Footer -->
+    <footer>
+      <div class="container_footer ">
+        <div class="bg-custom mb-5"></div>
+        <div class="row">
+          <div class="col-12 col-lg-5 form">
+            <h3 class="titulo_form">SEGUÍ NUESTRA AVENTURA</h3>
+            <p class="texto_footer">
+              Recibí noticias sobre productos y workshops
+            </p>
+            <form class="formulario-suscripcion" action="#" method="get">
+              <input type="text" placeholder="E-Mail" />
+              <button class="btn-form">Suscribirme</button>
+            </form>
+          </div>
+
+          <div class="col-12 col-lg-2 links_footer">
+            <i class="fa-solid fa-face-smile" style="color: #7a56fc;"></i>
+            <p class="fw-bold">AYUDA</p>
+              <ul class="links_footer">
+                <li><a href="#">Contáctanos</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Envios</a></li>
+                <li><a href="#">Pagos</a></li>
+                <li><a href="#">Sigue tu orden!</a></li>
+                <li><a href="#">Devoluciones</a></li>
+              </ul>
+            </div>
+
+            <div class="col-12 col-lg-2 links_footer">
+              <i class="fa-solid fa-magnifying-glass" style="color: #7a56fc;"></i>
+              <p class="fw-bold">INFO</p>
+              <ul class="links_footer">
+                <li><a href="#">Políticas de privacidad</a></li>
+                <li><a href="#">Términos y condiciones</a></li>
+                <li><a href="#">Devoluciones</a></li>
+                <li><a href="#">políticas de Cookies</a></li>
+                <li><a href="#">Gift Card</a></li>
+              </ul>
+            </div>
+
+            <div class="col-12 col-lg-2 links_footer">
+              <i class="fa-solid fa-heart" style="color: #7a56fc;"></i>
+              <p class="fw-bold">SÍGUENOS</p>
+              <ul class="links_footer">
+                <li><a href="https://www.instagram.com/">Instagram</a></li>
+                <li><a href="https://www.tiktok.com/es/">Tik Tok</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <small class="texto-xs-bottom mx-auto text-center justify-content">2023 Collected Treasures</small>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+    <script src="../js/app.js"></script>
 </body>
 </html>

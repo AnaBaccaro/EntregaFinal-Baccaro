@@ -22,6 +22,19 @@
       referrerpolicy="no-referrer"
     />
 
+    <!-- Link Toastify -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
+    />
+
+    <!-- Link Sweetalert -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-dark@4/dark.css"
+      rel="stylesheet"
+    />
+
     <!-- Link CSS -->
     <link rel="stylesheet" href="./css/style.css" />
   </head>
@@ -70,22 +83,31 @@
                 </div>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">WORKSHOPS</a>
+                <a class="nav-link" href="./pages/workshops.html">WORKSHOPS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/nosotros.html">NOSOTROS</a>
               </li>
             </ul>
 
             <!-- Button trigger modal -->
             <button
               type="button"
-              class="btn btn-custom"
+              class="btn btn-custom btn-cart"
               data-bs-toggle="modal"
               data-bs-target="#exampleModal"
             >
-              <i class="fa-solid fa-cart-shopping cart-icon"></i>
+              <i class="fa-solid fa-cart-shopping cart-icon fa-xl"></i>
+              <span id="carrito-count" class="badge">0</span>
             </button>
           </div>
         </div>
       </nav>
+
+      <!-- Imagen del logo -->
+      <div>
+        <img id="logo" src="./Recursos/logo_newversion.jpeg" alt="logo" />
+      </div>
     </header>
     <main>
       <!-- Cards productos -->
@@ -120,14 +142,14 @@
           <div class="text-center" id="precio_total"></div>
 
           <div class="modal-footer">
-            <button
-              type="button"
-              class="btn btn-secondary"
-              data-bs-dismiss="modal"
-            >
+            <button type="button" class="btn btn-cart" data-bs-dismiss="modal">
               Seguir comprando
             </button>
-            <button type="button" class="btn btn-primary">
+            <button
+              type="button"
+              class="btn btn-secundario"
+              id="finalizar_compra"
+            >
               Finalizar compra
             </button>
           </div>
@@ -137,39 +159,76 @@
 
     <!-- Footer -->
     <footer>
-      <div class="footer-info">
-        <div class="suscripcion">
-          <h3>SEGUÍ NUESTRA AVENTURA</h3>
-          <p>
-            Recibí noticias sobre productos preorder, ofertas exclusivas,
-            eventos y tips para hacer upcycling con tus prendas
-          </p>
-          <form class="formulario-suscripcion" action="#" method="get">
-            <input type="text" placeholder="E-MAIL" />
-            <button>Suscribirme</button>
-          </form>
-        </div>
+      <div class="container_footer ">
+        <div class="bg-custom mb-5"></div>
+        <div class="row">
+          <div class="col-12 col-lg-5 form">
+            <h3 class="titulo_form">SEGUÍ NUESTRA AVENTURA</h3>
+            <p class="texto_footer">
+              Recibí noticias sobre productos y workshops
+            </p>
+            <form class="formulario-suscripcion" action="#" method="get">
+              <input type="text" placeholder="E-Mail" />
+              <button class="btn-form">Suscribirme</button>
+            </form>
+          </div>
 
-        <div class="ayuda">
-          <ul class="dudas">
-            <li><a href="#">Devoluciones</a></li>
-            <li><a href="#">Pagos</a></li>
-            <li><a href="#">Envios</a></li>
-            <li><a href="#">Gift card</a></li>
-            <li><a href="./pages/contacto.html">Contacto</a></li>
-            <li><a href="#">Términos y condiciones de venta</a></li>
-          </ul>
+          <div class="col-12 col-lg-2 links_footer">
+            <i class="fa-solid fa-face-smile" style="color: #7a56fc;"></i>
+            <p class="fw-bold">AYUDA</p>
+              <ul class="links_footer">
+                <li><a href="#">Contáctanos</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Envios</a></li>
+                <li><a href="#">Pagos</a></li>
+                <li><a href="#">Sigue tu orden!</a></li>
+                <li><a href="#">Devoluciones</a></li>
+              </ul>
+            </div>
+
+            <div class="col-12 col-lg-2 links_footer">
+              <i class="fa-solid fa-magnifying-glass" style="color: #7a56fc;"></i>
+              <p class="fw-bold">INFO</p>
+              <ul class="links_footer">
+                <li><a href="#">Políticas de privacidad</a></li>
+                <li><a href="#">Términos y condiciones</a></li>
+                <li><a href="#">Devoluciones</a></li>
+                <li><a href="#">políticas de Cookies</a></li>
+                <li><a href="#">Gift Card</a></li>
+              </ul>
+            </div>
+
+            <div class="col-12 col-lg-2 links_footer">
+              <i class="fa-solid fa-heart" style="color: #7a56fc;"></i>
+              <p class="fw-bold">SÍGUENOS</p>
+              <ul class="links_footer">
+                <li><a href="https://www.instagram.com/">Instagram</a></li>
+                <li><a href="https://www.tiktok.com/es/">Tik Tok</a></li>
+              </ul>
+            </div>
+          </div>
         </div>
-        
       </div>
-      <p class="texto-xs-bottom">2023 Collected Treasures</p>
+      <small class="texto-xs-bottom mx-auto text-center justify-content">2023 Collected Treasures</small>
     </footer>
 
+    <!-- Link script Boostrap -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
       crossorigin="anonymous"
     ></script>
+
+    <!-- Link Toastify -->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/toastify-js"
+    ></script>
+
+    <!-- Link Sweetalert -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
+
+    <!-- Link JS local -->
     <script src="./js/app.js"></script>
   </body>
 </html>

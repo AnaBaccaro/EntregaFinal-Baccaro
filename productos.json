@@ -1,0 +1,134 @@
+[
+  {
+       "id": 1, 
+        "nombre": "Lentes de sol Almond",
+        "precio": 150, 
+        "descripcion": "Lentes de sol vintage, hechos en Italia", 
+        "img": "https://images.pexels.com/photos/9771805/pexels-photo-9771805.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2", 
+        "alt": "Lentes_de_sol", 
+        "categoria": "Accesorios", 
+        "stock": "1"
+    } ,
+
+    {
+        "id": 2, 
+         "nombre": "Camisa Mercury",
+         "precio": 60, 
+         "descripcion": "Camisa denim manga corta, realizada con desechos de fábrica", 
+         "img": "https://images.pexels.com/photos/12064935/pexels-photo-12064935.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2", 
+         "alt": "Camisa_denim", 
+         "categoria": "Ropa", 
+         "stock": "3"
+     } ,
+     
+     {
+        "id": 3, 
+         "nombre": "Tshirt Smoky",
+         "precio": 45, 
+         "descripcion": "Tshirt dont smoke", 
+         "img": "https://images.pexels.com/photos/14711713/pexels-photo-14711713.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2", 
+         "alt": "Tshirt_estampada", 
+         "categoria": "Ropa", 
+         "stock": "6"
+     } ,
+
+     {
+        "id": 4, 
+         "nombre": "Tshirt Donsmoke",
+         "precio": 45, 
+         "descripcion": "Tshirt oversize", 
+         "img": "https://images.pexels.com/photos/14769304/pexels-photo-14769304.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2", 
+         "alt": "Tshirt_oversize", 
+         "categoria": "Ropa", 
+         "stock": "7"
+     } ,
+     
+     {
+        "id": 5, 
+         "nombre": "Tshirt Marie",
+         "precio": 45, 
+         "descripcion": "Tshirt fucsia con estampa", 
+         "img": "https://images.pexels.com/photos/14845062/pexels-photo-14845062.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2", 
+         "alt": "Tshirt_estampa", 
+         "categoria": "Ropa", 
+         "stock": "6"
+     } ,
+     
+     {
+        "id": 6, 
+         "nombre": "Campera Fuji",
+         "precio": 100, 
+         "descripcion": "Campera bordada", 
+         "img": "https://images.pexels.com/photos/14844862/pexels-photo-14844862.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2", 
+         "alt": "Campera_bordada", 
+         "categoria": "Ropa", 
+         "stock": "1"
+     } ,
+    
+     {
+        "id": 7, 
+         "nombre": "Tshirt Ozzy",
+         "precio": 100, 
+         "descripcion": "Tshirt con estampa de Ozzy Osbourne", 
+         "img": "https://images.pexels.com/photos/11131439/pexels-photo-11131439.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+         "alt": "Tshirt_ozzy",
+         "categoria": "Ropa", 
+         "stock": "8"
+     } ,
+
+     {
+        "id": 8, 
+         "nombre": "Lentes de sol Ducky",
+         "precio": 150,
+         "descripcion": "Lentes de sol vintage, hechos en España",
+         "img": "https://images.pexels.com/photos/14700245/pexels-photo-14700245.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+         "alt": "Lentes_vintage",
+         "categoria": "Accesorios", 
+         "stock": "5"
+     } ,
+
+     {
+        "id": 9, 
+         "nombre": "Cardigan Justin",
+         "precio": 80,
+         "descripcion": "Saco vintage a rayas",
+         "img": "https://images.pexels.com/photos/14844788/pexels-photo-14844788.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load",
+         "alt": "Cardigan_vintage",
+         "categoria": "Ropa", 
+         "stock": "2"
+     } ,
+     
+     {
+        "id": 10, 
+         "nombre": "Hoodie D-Smoke",
+         "precio": 100,
+         "descripcion": "Hoodie con estampa",
+         "img": "https://images.pexels.com/photos/14769361/pexels-photo-14769361.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load",
+         "alt": "Hoodie_estampado",
+         "categoria": "Ropa", 
+         "stock": "8"
+     } ,
+    
+     {
+        "id": 11, 
+         "nombre": "Buzo Wulf",
+         "precio": 100,
+         "descripcion": "Buzo crop con cuello alto",
+         "img": "https://images.pexels.com/photos/14711368/pexels-photo-14711368.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load",
+         "alt": "Buzo_vintage",
+         "categoria": "Ropa", 
+         "stock": "1"
+     } ,
+
+     {
+        "id": 12, 
+         "nombre": "Botas Matrix",
+         "precio": 150,
+         "descripcion": "Botas vintage",
+         "img": "https://images.pexels.com/photos/14700242/pexels-photo-14700242.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load",
+         "alt": "Botas_vintage",
+         "categoria": "Zapatos", 
+         "stock": "1"
+     } 
+]
+    

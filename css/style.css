@@ -1,10 +1,36 @@
+/* colors:
+#cbfc55 - green
+#7a56fc - violet
+white
+#f8f8f8 - light grey
+#e9e9e9 - medium grey
+black*/
+
+*{
+    padding: 0;
+    margin:0;
+}
+
+
+/* TIPOGRAFIA */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
 .container {
-    margin-top: 8rem;
+    margin-top: 4rem;
+}
+
+.navbar.bg-custom {
+    border-bottom: 1px solid black; 
 }
 
 /* Cambia el color de los enlaces del nav al hacer hover */
 .navbar-nav .nav-item .nav-link:hover {
-    color: #e8e970; 
+    color: #cbfc55; 
   }
 
 /* Cambio de color del fondo del nav */
@@ -15,134 +41,263 @@
 /* Cambio de color de los enlaces del menu desplegable */
 .dropdown-menu .dropdown-item:hover {
     color: black;
-    background-color: #e8e970;
+    background-color: #cbfc55;
 }
 
 /* Estilo personalizado para el icono del carrito */
 .cart-icon {
-    color: black; /* Color del icono inicial */
-    transition: color 0.3s ease; /* Transición de color para el icono */
+    color: black;
+    transition: color 0.3s ease
 }
 
 /* Cambia el color del icono al hacer hover */
-.btn-custom:hover .cart-icon {
-    color: #e8e970; /* Cambia el color del icono a rojo al hacer hover */
+.btn-custom:hover .cart-icon  {
+    color: #cbfc55; 
 }
 
+.btn-secundario{
+    background-color: black;
+    color: white;  
+    border-color: black;
+    border-radius: 5px; 
+    padding: 5px 20px; 
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-secundario:hover {
+    background-color: #cbfc55;
+    color: white;
+}
 
 
 /* Estilo personalizado para el botón "Añadir al carrito" */
 .btn-cart{
-    background-color: black;
-    color: white; 
-    border: none; 
-    border-radius: 100px; /* Ajusta el radio del borde según tus preferencias */
-    padding: 5px 15px; /* Ajusta el espaciado según tus necesidades */
-    transition: background-color 0.3s ease; /* Transición suave del color de fondo */
+    background-color: #cbfc55;
+    color: black;  
+    border-color: black;
+    border-radius: 5px; 
+    padding: 5px 20px; 
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
 }
 
 /* Cambia el color de fondo al hacer hover */
 .btn-cart:hover {
-    background-color: #e8e970;
-    color: white;
+    background-color: #cbfc55;
+    color: black;  
+    border-color: black;
+    border-radius: 5px; 
+    padding: 5px 20px; 
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    transition: background-color 0.3s ease
 }
 
+
+
+/* Logo del nav - index-Shop */
+#logo{
+    width: 35%;
+    margin: auto;
+    display: flex;
+    margin-left: 30rem;
+}
+
+
+
+/* Estilo para el contador de productos del icono carrito */
+#carrito-count {
+    background-color: #cbfc55;
+    border-radius: 50%;
+    color: black; 
+    position: absolute; 
+}
+
+/*Video- Workshop  */
+#video_workshop {
+   width:100%
+}
+
+.descripcion_producto{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.nombre_producto{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+.descripcion_precio{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.card_img{
+    height: 70%;
+    width: 70%;
+}
+
+/* Estilos custom sweetalert */
+.swal-icon {
+    color: #cbfc55;
+}
+
+.swal-title {
+    color: black; 
+}
+
+.swal-text {
+    color: white;
+}
 
 
 /* Estilos del FOOTER */
-.footer-info {
-    background-color: 
-    #e0d1ed;
-    min-height: 50vh;
-    color: #000;
-    text-align: center;
+.container_footer{
+    margin-top: 14rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+    list-style-type: none;
+    }
+
+.form{
+    margin-left: 4rem;
+}
+
+.texto_footer{
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: -7px;
+}
+
+.links_footer{
+    font-size: 14px;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 100%;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-content: stretch;
+    flex-direction: column;
+    align-items: left;
+    padding: 0;
+}
+
+.texto-xs-bottom{
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
     margin-top: 5rem;
-    text-decoration: none;
-    }
-
-
-.suscripcion h3 {
-    display: flex;
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: #000;
-    text-decoration: none;
-    margin-left: 10px;
-    white-space: pre-line;
-    text-align: left;
 }
 
-.suscripcion p {
-    display: flex;
-    font-weight: thin;
-    color: #000;
-    text-decoration: none;
-    margin-left: 10px;
-    white-space: pre-line;
-    text-align: left;
+#contenedor_productos .card {
+    max-width: 70%; 
+    margin: auto;
+  }
+
+  .btn-form{
+    background-color: black;
+    color: white;  
+    border-color: black;
+    border-radius: 5px; 
+    padding: 3px 20px; 
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
 }
 
-.suscripcion input {
-    margin-left: 10px;
-    display: flex;
-    width: 23rem;
-    height: 2.5rem;
-    border-radius: 5px;
-    border: 1px solid black;
-    }
+.btn-form:hover {
+    background-color: white;
+    color: black;
+    border-width: 1px;
+}
+
+.titulo_form{
+    font-family: 'Roboto', sans-serif;
+}
+
+footer .bg-custom {
+    border-bottom: 1px solid black; 
+}
+
+input:focus {
+    outline-color: #7a56fc; 
+    outline-width: 1px; 
+    outline-style: solid; 
+}
 
 input::placeholder {
-    border: 16px #e8e970;
-   }
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif; 
+}
 
+input {
+    width: 45%;
+    margin: auto;
+}
 
-.suscripcion button {
-    display: flex;
-    text-align: left;
-    margin-top: 5px;
-    align-items: flex-end;
-    margin-left: 10px;
-    text-decoration: none;
-    background-color: black;
-    color: white; 
-    border: none; 
-    border-radius: 100px; 
-    padding: 5px 15px; 
-    transition: background-color 0.3s ease;
+.btn-eliminar{
+    border-radius: 3px;
+    padding: 3px 7px; 
+    border-width: 1px;
+    background-color: white;
+    color: black
     
 }
 
-.suscripcion button:hover {
-    background-color: #e8e970;
+.btn-cantidad{
     color: white;
+    border-radius: 3px;
+    size: 2px;
+    padding: 1px 5px; 
+    background-color: #7a56fc;
+    border-color: black;
+    border-width: 1px;
 }
 
-.dudas {
-    list-style-type: none;
-    text-align: left;
-    margin-left: 0px;
-    margin-top: 12px;
+.logo_nav_otros{
+    display: flex;
+    width: 7%
+    
+}
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 100vh; 
+    overflow: hidden;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    
 }
 
-.dudas a {
-    color: #000;
-    text-decoration: none;
+/* Estilos para el video dentro del contenedor */
+.video_capsula {
+    width: 100%;
+    height: auto;
+    object-fit: cover; 
+   
 }
 
-.dudas a:hover {
-    color: #e8e970;
+
+ /*INICIO DE LAS CARD*/
+ label{
+    font-size: 14px;
+ }
+
+.container-card-workshop{
+    margin: auto;
+    margin-top: 4rem;
 }
 
-
-.texto-xs-bottom {
-    font-size: 12px;
-    text-align: center;
-    margin-top: 1.5rem;
+.card-img-fixed {
+    width: 100%; 
+    max-height: 100%; 
+    object-fit: cover; 
 }
+
