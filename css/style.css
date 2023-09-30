@@ -276,7 +276,7 @@ input {
     
 }
 
-/* Estilos para el video dentro del contenedor */
+
 .video_capsula {
     width: 100%;
     height: auto;
@@ -285,7 +285,7 @@ input {
 }
 
 
- /*INICIO DE LAS CARD*/
+
  label{
     font-size: 14px;
  }
@@ -307,16 +307,16 @@ input {
 
 
 .logo-circular {
-    position: fixed; /* Esto hace que la imagen sea fija en la ventana del navegador */
-    top: 20px; /* Ajusta la distancia desde la parte superior */
-    right: 20px; /* Ajusta la distancia desde la derecha */
+    width: 12rem;
+    position: absolute;
+    top: -1rem; 
+    right: 14rem; 
     animation: rotate 10s linear infinite;
 
-    /* Agrega el siguiente código para hacer que la imagen gire continuamente */
     animation: rotate 10s linear infinite;
 }
 
-/* Define la animación llamada 'rotate' */
+
 @keyframes rotate {
     from {
         transform: rotate(0deg);
@@ -325,3 +325,35 @@ input {
         transform: rotate(360deg);
     }
 }
+
+.text-workshop-1{
+    margin-top: -4rem;
+    margin-left: 19rem;
+}
+
+.text-workshop-2{
+    margin-right: 10rem;
+    margin-top: 17rem;
+}
+
+.imagensmile{
+    width: 8%;
+    margin-top: 4rem;
+    margin-left: 16rem;
+}
+
+.emoji_alien{
+    width: 10%;
+    margin-top: -2rem;
+    margin-left: 35rem;
+}
+
+.upcycling-container{
+    display: flex;
+}
+
+.emoji_cat{
+    width: 10%;
+    margin-top: 10rem;
+}
+

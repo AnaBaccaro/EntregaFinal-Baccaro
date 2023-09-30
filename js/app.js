@@ -374,7 +374,7 @@ const ropaLink = document.getElementById("ropa_link")
 const zapatosLink = document.getElementById("zapatos_link")
 const accesoriosLink = document.getElementById("accesorios_link")
 
-// Agregar eventos de click a los elementos
+// Eventos de click a los elementos
 ropaLink.addEventListener("click", () => {
     CP.mostrarEnDOM('Ropa')
 })
