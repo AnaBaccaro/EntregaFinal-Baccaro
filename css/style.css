@@ -309,8 +309,8 @@ input {
 .logo-circular {
     width: 12rem;
     position: absolute;
-    top: -1rem; 
-    right: 14rem; 
+    top: -5rem; 
+    right: 25rem; 
     animation: rotate 10s linear infinite;
 
     animation: rotate 10s linear infinite;
@@ -356,4 +356,7 @@ input {
     width: 10%;
     margin-top: 10rem;
 }
+
+
+/* MEDIAS QUERYS */
 
