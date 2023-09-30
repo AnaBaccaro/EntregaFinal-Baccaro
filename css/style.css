@@ -1,362 +1,327 @@
-/* colors:
+/* Colors:
 #cbfc55 - green
 #7a56fc - violet
-white
-#f8f8f8 - light grey
-#e9e9e9 - medium grey
-black*/
+*/
 
-*{
-    padding: 0;
-    margin:0;
+* {
+  padding: 0;
+  margin: 0;
 }
 
-
 /* TIPOGRAFIA */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap");
 
-
-body{
-    font-family: 'Roboto', sans-serif;
+body {
+  font-family: "Roboto", sans-serif;
 }
 
 .container {
-    margin-top: 4rem;
+  margin-top: 4rem;
 }
 
 .navbar.bg-custom {
-    border-bottom: 1px solid black; 
+  border-bottom: 1px solid black;
 }
 
-/* Cambia el color de los enlaces del nav al hacer hover */
 .navbar-nav .nav-item .nav-link:hover {
-    color: #cbfc55; 
-  }
-
-/* Cambio de color del fondo del nav */
-  .bg-custom {
-    background-color: white;
+  color: #cbfc55;
 }
 
-/* Cambio de color de los enlaces del menu desplegable */
+.bg-custom {
+  background-color: white;
+}
+
 .dropdown-menu .dropdown-item:hover {
-    color: black;
-    background-color: #cbfc55;
+  color: black;
+  background-color: #cbfc55;
 }
 
-/* Estilo personalizado para el icono del carrito */
 .cart-icon {
-    color: black;
-    transition: color 0.3s ease
+  color: black;
+  transition: color 0.3s ease;
 }
 
-/* Cambia el color del icono al hacer hover */
-.btn-custom:hover .cart-icon  {
-    color: #cbfc55; 
+.btn-custom:hover .cart-icon {
+  color: #cbfc55;
 }
 
-.btn-secundario{
-    background-color: black;
-    color: white;  
-    border-color: black;
-    border-radius: 5px; 
-    padding: 5px 20px; 
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
-    transition: background-color 0.3s ease;
+.btn-secundario {
+  background-color: black;
+  color: white;
+  border-color: black;
+  border-radius: 5px;
+  padding: 5px 20px;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
 }
 
 .btn-secundario:hover {
-    background-color: #cbfc55;
-    color: white;
+  background-color: #cbfc55;
+  color: white;
 }
 
-
-/* Estilo personalizado para el botón "Añadir al carrito" */
-.btn-cart{
-    background-color: #cbfc55;
-    color: black;  
-    border-color: black;
-    border-radius: 5px; 
-    padding: 5px 20px; 
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
-    transition: background-color 0.3s ease;
+.btn-cart {
+  background-color: #cbfc55;
+  color: black;
+  border-color: black;
+  border-radius: 5px;
+  padding: 5px 20px;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
 }
 
-/* Cambia el color de fondo al hacer hover */
 .btn-cart:hover {
-    background-color: #cbfc55;
-    color: black;  
-    border-color: black;
-    border-radius: 5px; 
-    padding: 5px 20px; 
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
-    transition: background-color 0.3s ease
+  background-color: #cbfc55;
+  color: black;
+  border-color: black;
+  border-radius: 5px;
+  padding: 5px 20px;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
 }
 
-
-
-/* Logo del nav - index-Shop */
-#logo{
-    width: 35%;
-    margin: auto;
-    display: flex;
-    margin-left: 30rem;
+#logo {
+  width: 35%;
+  margin: auto;
+  display: flex;
+  margin-left: 30rem;
 }
 
-
-
-/* Estilo para el contador de productos del icono carrito */
 #carrito-count {
-    background-color: #cbfc55;
-    border-radius: 50%;
-    color: black; 
-    position: absolute; 
+  background-color: #cbfc55;
+  border-radius: 50%;
+  color: black;
+  position: absolute;
 }
 
-/*Video- Workshop  */
 #video_workshop {
-   width:100%
+  width: 100%;
 }
 
-.descripcion_producto{
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
+.descripcion_producto {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
 }
 
-.nombre_producto{
-    font-family: 'Roboto', sans-serif;
-    font-size: 18px;
+.nombre_producto {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
 }
 
-.descripcion_precio{
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
+.descripcion_precio {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
 }
 
-.card_img{
-    height: 70%;
-    width: 70%;
+.card_img {
+  height: 70%;
+  width: 70%;
 }
 
-/* Estilos custom sweetalert */
 .swal-icon {
-    color: #cbfc55;
+  color: #cbfc55;
 }
 
 .swal-title {
-    color: black; 
+  color: black;
 }
 
 .swal-text {
-    color: white;
+  color: white;
 }
 
-
-/* Estilos del FOOTER */
-.container_footer{
-    margin-top: 14rem;
-    font-family: 'Roboto', sans-serif;
+.container_footer {
+  margin-top: 14rem;
+  font-family: "Roboto", sans-serif;
 }
 
 footer a {
-    text-decoration: none;
-    color: black;
-    list-style-type: none;
-    }
-
-.form{
-    margin-left: 4rem;
+  text-decoration: none;
+  color: black;
+  list-style-type: none;
 }
 
-.texto_footer{
-    font-size: 14px;
-    font-family: 'Roboto', sans-serif;
-    margin-top: -7px;
+.form {
+  margin-left: 4rem;
 }
 
-.links_footer{
-    font-size: 14px;
-    list-style: none;
-    font-family: 'Roboto', sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-    padding: 0;
+.texto_footer {
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  margin-top: -7px;
 }
 
-.texto-xs-bottom{
-    font-size: 10px;
-    font-family: 'Roboto', sans-serif;
-    display: flex;
-    justify-content: center;
-    margin-top: 5rem;
+.links_footer {
+  font-size: 14px;
+  list-style: none;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  padding: 0;
+}
+
+.texto-xs-bottom {
+  font-size: 10px;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
 }
 
 #contenedor_productos .card {
-    max-width: 70%; 
-    margin: auto;
-  }
+  max-width: 70%;
+  margin: auto;
+}
 
-  .btn-form{
-    background-color: black;
-    color: white;  
-    border-color: black;
-    border-radius: 5px; 
-    padding: 3px 20px; 
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
-    transition: background-color 0.3s ease;
+.btn-form {
+  background-color: black;
+  color: white;
+  border-color: black;
+  border-radius: 5px;
+  padding: 3px 20px;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
 }
 
 .btn-form:hover {
-    background-color: white;
-    color: black;
-    border-width: 1px;
+  background-color: white;
+  color: black;
+  border-width: 1px;
 }
 
-.titulo_form{
-    font-family: 'Roboto', sans-serif;
+.titulo_form {
+  font-family: "Roboto", sans-serif;
 }
 
 footer .bg-custom {
-    border-bottom: 1px solid black; 
+  border-bottom: 1px solid black;
 }
 
 input:focus {
-    outline-color: #7a56fc; 
-    outline-width: 1px; 
-    outline-style: solid; 
+  outline-color: #7a56fc;
+  outline-width: 1px;
+  outline-style: solid;
 }
 
 input::placeholder {
-    font-size: 14px;
-    font-family: 'Roboto', sans-serif; 
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
 }
 
 input {
-    width: 45%;
-    margin: auto;
+  width: 45%;
+  margin: auto;
 }
 
-.btn-eliminar{
-    border-radius: 3px;
-    padding: 3px 7px; 
-    border-width: 1px;
-    background-color: white;
-    color: black
-    
+.btn-eliminar {
+  border-radius: 3px;
+  padding: 3px 7px;
+  border-width: 1px;
+  background-color: white;
+  color: black;
 }
 
-.btn-cantidad{
-    color: white;
-    border-radius: 3px;
-    size: 2px;
-    padding: 1px 5px; 
-    background-color: #7a56fc;
-    border-color: black;
-    border-width: 1px;
+.btn-cantidad {
+  color: white;
+  border-radius: 3px;
+  size: 2px;
+  padding: 1px 5px;
+  background-color: #7a56fc;
+  border-color: black;
+  border-width: 1px;
 }
 
-.logo_nav_otros{
-    display: flex;
-    width: 7%
-    
+.logo_nav_otros {
+  display: flex;
+  width: 7%;
 }
+
 .video-container {
-    position: relative;
-    width: 100%;
-    height: 100vh; 
-    overflow: hidden;
-    display: flex; 
-    align-items: center; 
-    justify-content: center; 
-    
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-
 
 .video_capsula {
-    width: 100%;
-    height: auto;
-    object-fit: cover; 
-   
+  width: 100%;
+  height: auto;
+  object-fit: cover;
 }
 
+label {
+  font-size: 14px;
+}
 
-
- label{
-    font-size: 14px;
- }
-
-.container-card-workshop{
-    margin: auto;
-    margin-top: 4rem;
+.container-card-workshop {
+  margin: auto;
+  margin-top: 4rem;
 }
 
 .card-img-fixed {
-    width: 100%; 
-    max-height: 100%; 
-    object-fit: cover; 
+  width: 100%;
+  max-height: 100%;
+  object-fit: cover;
 }
 
-.logocircular-contenedor{
-    position:relative
+.logocircular-contenedor {
+  position: relative;
 }
-
 
 .logo-circular {
-    width: 12rem;
-    position: absolute;
-    top: -5rem; 
-    right: 25rem; 
-    animation: rotate 10s linear infinite;
+  width: 12rem;
+  position: absolute;
+  top: -5rem;
+  right: 25rem;
+  animation: rotate 10s linear infinite;
 
-    animation: rotate 10s linear infinite;
+  animation: rotate 10s linear infinite;
 }
-
 
 @keyframes rotate {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
-.text-workshop-1{
-    margin-top: -4rem;
-    margin-left: 19rem;
+.text-workshop-1 {
+  margin-top: -4rem;
+  margin-left: 19rem;
 }
 
-.text-workshop-2{
-    margin-right: 10rem;
-    margin-top: 17rem;
+.text-workshop-2 {
+  margin-right: 10rem;
+  margin-top: 17rem;
 }
 
-.imagensmile{
-    width: 8%;
-    margin-top: 4rem;
-    margin-left: 16rem;
+.imagensmile {
+  width: 8%;
+  margin-top: 4rem;
+  margin-left: 16rem;
 }
 
-.emoji_alien{
-    width: 10%;
-    margin-top: -2rem;
-    margin-left: 35rem;
+.emoji_alien {
+  width: 10%;
+  margin-top: -2rem;
+  margin-left: 35rem;
 }
 
-.upcycling-container{
-    display: flex;
+.upcycling-container {
+  display: flex;
 }
 
-.emoji_cat{
-    width: 10%;
-    margin-top: 10rem;
+.emoji_cat {
+  width: 10%;
+  margin-top: 10rem;
 }
-
-
-/* MEDIAS QUERYS */
-
